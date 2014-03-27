@@ -1,4 +1,4 @@
-Robocode
+Jhon Delinger
 ========
 
 Robô para Robocode.
