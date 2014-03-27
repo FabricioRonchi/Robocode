@@ -1,4 +1,4 @@
-Jhon Delinger
+John Dillinger
 ========
 
 Robô para Robocode.
