@@ -45,7 +45,7 @@ public class John_Dillinger extends AdvancedRobot {
         double d = e.getDistance();
         if (d < 100){
             power = 3;		
-        }else if (d < 200 && d > 100){
+        }else if (d < 200 && d > 200){
 			power = 2;			
 		}else{
 			power = 1;
