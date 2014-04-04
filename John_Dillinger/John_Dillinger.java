@@ -74,7 +74,7 @@ public class John_Dillinger extends AdvancedRobot {
         } else {         
             movimento = e.getBearing() + 90;
             setTurnRight(movimento);
-            setAhead(10*dir);           
+            setAhead(30*dir);           
         }     
         execute();
         scan();
