@@ -45,7 +45,7 @@ public class John_Dillinger extends AdvancedRobot {
         double d = e.getDistance();
         if (d < 100){
             power = 3;		
-        }else if (d < 200 && d > 200){
+        }else if (d < 200 && d > 100){
 			power = 2;			
 		}else{
 			power = 1;
@@ -74,7 +74,7 @@ public class John_Dillinger extends AdvancedRobot {
         } else {         
             movimento = e.getBearing() + 90;
             setTurnRight(movimento);
-            setAhead(30*dir);           
+            setAhead(10*dir);           
         }     
         execute();
         scan();
